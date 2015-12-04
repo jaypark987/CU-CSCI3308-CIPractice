@@ -1,4 +1,4 @@
 language: c
 sudo: -y required
 compiler: gcc
-script: DEP && make && make test
+script: make dep && make && make test
